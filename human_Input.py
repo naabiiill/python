@@ -19,9 +19,12 @@ mul = num1 * num2
 div = num1 / num2
 floor_div = num1 // num2
 pow = num1 ** num2
+logical_and = num1 and num2
 print("Sum:", sum)
 print("Subtraction:", sub)
 print("Multiplication:", mul)
 print("Division:", div)
 print("Floor Division:", floor_div)
 print("Power:", pow)
+print("Logical AND:", logical_and)
+
