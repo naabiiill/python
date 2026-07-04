@@ -11,9 +11,9 @@ sum_complex = complex_val + complex_val2
 print ("Sum of complex numbers:", sum_complex)
 
 check_even_odd = True
-#tuple--mutable
+#tuple---mutable
 fruit_items = ("apple", "banana", "cherry")
-#list--not mutable
+#list---not mutable
 fruit_items= ["apple", "banana", "cherry"]
 #range
 number_range= range (1, 10)
