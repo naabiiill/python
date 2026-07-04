@@ -13,5 +13,5 @@ z= x + ' ' + y
 print(z) 
 #str replication
 dummy_haha= "HaHa"
-print(dummy_haha * 3)
+print(dummy_haha *3)
 
