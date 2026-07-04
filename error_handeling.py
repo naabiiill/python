@@ -1,5 +1,5 @@
 #syntax error
-market_val=1000
+market_val=100
 print("Market Value:", market_val) #if merket_val is used then syntax error will occur
 
 #runtime error
@@ -10,7 +10,7 @@ print("Division Result:", division_result)
 
 #logical error
 
-num_apple=10
+num_apple= 27
 num_person=3
 #floor_division if not used than logical error
 print("Number of apples per person:", num_apple//num_person)
