@@ -42,6 +42,6 @@ print(is_greater_than5)
 is_greater_than= 6>5 and 5>3
 print(is_greater_than)
 
-not_check = not(6>5)
-print(not_check)
+not_op = not(6>5)
+print(not_op)
 
