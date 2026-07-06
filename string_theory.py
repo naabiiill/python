@@ -17,3 +17,10 @@ print(f"if we divide 100 by 3 we get: {div_var:.2f}") #33.33
 name = "john doe"
 print(name.upper()) #JOHN DOE
 print(name.lower()) #john doe
+print(name.capitalize()) #John doe
+
+#find p in python
+word = "python"
+print(word.find("p")) #0 
+print(word.find("z")) #-1
+
