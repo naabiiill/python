@@ -1,5 +1,6 @@
-#while loop
+
 #for loop
+#use when you know the number of iterations
 """
 for i in range(6):
     print(i)
@@ -36,6 +37,7 @@ for i in range (range_val):
 """
 
 #while loop
+#use when you do not know the number of iterations
 
 test_list = []
 
