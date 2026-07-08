@@ -27,6 +27,7 @@ while True:
     choice = input("Enter your choice (1-7): ")
 
     if choice == '1':
+        print("\n----- Task List -----")
         if len(task_list) == 0:
             print("No tasks available.")
         else:
@@ -71,3 +72,5 @@ while True:
     elif choice == '7':
         print("Exiting the Task Manager.")
         break
+    else:
+        print("Invalid choice. Please try again.")
