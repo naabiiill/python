@@ -22,7 +22,8 @@ while True:
     print("4. Remove a task")
     print("5. Backup tasks")
     print("6. Clear all tasks")
-    print("7. Exit")
+    print("7. Swap tasks")
+    print("8. Exit")
 
     choice = input("Enter your choice (1-7): ")
 
@@ -70,6 +71,13 @@ while True:
         task_list.clear()
         print("All tasks cleared successfully.")
     elif choice == '7':
+        input_1st_task = input("Enter the first task to swap: ")
+        input_2nd_task = input("Enter the second task to swap: ")
+        temp_task = task_list[input_1st_task]
+        task_list[input_1st_task] = task_list[input_2nd_task]
+        task_list[input_2nd_task] = temp_task
+        print("Tasks swapped successfully.")
+    elif choice == '8':
         print("Exiting the Task Manager.")
         break
     else:
