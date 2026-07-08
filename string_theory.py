@@ -24,3 +24,8 @@ word = "python"
 print(word.find("p")) #0 
 print(word.find("z")) #-1
 
+
+p = "python is a programming language"
+print(p.title()) #Python Is A Programming Language
+
+print(p.find("is")) #7
