@@ -104,3 +104,10 @@ print(number_tuple)  # Output: (1, 2, 3, 4, 6, 7, 8, 9)
 
 number_tuple = ()
 print(number_tuple)  # Output: ()
+
+# Slicing a Tuple
+
+x=(8,9,10,11,12,13,14,15,16,17,18,19,20)
+
+print(x[0:5])  # Output: (8, 9, 10, 11, 12)
+print(x[-3:])  # Output: (18, 19, 20)
