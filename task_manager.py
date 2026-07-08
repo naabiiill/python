@@ -82,3 +82,8 @@ while True:
         break
     else:
         print("Invalid choice. Please try again.")
+
+        #List
+# While
+#For Loop
+# If - Else
