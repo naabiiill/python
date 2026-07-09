@@ -57,6 +57,36 @@ print("\n----- Temperature Converter -----")
 print(f"Temperature in Fahrenheit is: {fahrenheit}°F")
 
 
+
+
+
+# Billing Program
+
+# Taking item details from the user
+item_name = input("Enter the item name: ")
+price = float(input("Enter the price of the item: "))
+quantity = int(input("Enter the quantity: "))
+
+# Calculating the total bill
+total = price * quantity
+
+# Displaying the bill
+print("\n----- Shopping Bill -----")
+print(f"Total Bill for {item_name} = {total}")
+
 """
 
 
+# Student Information Card
+
+
+# Taking student information from the user
+student_name = input("Enter the student name: ")
+class_section = input("Enter the class and section: ")
+school_name = input("Enter the school name: ")
+
+# Displaying the Student ID Card
+print("\n----- STUDENT ID CARD -----")
+print(f"Name   : {student_name}")
+print(f"Class  : {class_section}")
+print(f"School : {school_name}")
