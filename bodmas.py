@@ -1,3 +1,4 @@
+#paranthesis then multiplication/division/addition/subtraction
 #9+ (81/9)* 3-2
 # 9 +9 * 3-2
 #9+27-2
@@ -15,3 +16,4 @@ print(z)
 dummy_haha= "HaHa"
 print(dummy_haha *3)
 
+#paranthesis then multiplication/division/addition/subtraction
