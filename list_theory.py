@@ -81,3 +81,6 @@ print(number_list)  # Output: [3, 4, 5, 6, 7, 8, 9]
 # To remove all items from a list, you can use the clear() method
 number_list.clear()
 print(number_list)  # Output: []
+
+#list slicing
+sliced_list = number_list[1:4]  # This will return elements from index 1 to 3
