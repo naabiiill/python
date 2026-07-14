@@ -23,4 +23,24 @@ marks = (
     ("Joy",33,"Class 10")#-1
 )
 
-print(marks)  
+print(marks)
+
+print(marks[2])
+print(marks[-2])
+print(marks[1:])
+for mark in marks:
+  print(mark)
+# marks[3] = ('Sadia', 99, 'Class 9')  # This will raise an error since tuples are immutable
+
+print(type(marks))
+# Process - Convert The Tuple to a list
+# Then Add that in that list
+# Convert it again to a tuple
+marks = list(marks)
+marks.append(('Sadia', 99, 'Class 9'))
+marks = tuple(marks)
+
+print(marks)
+other_marks = (('Happy', 89, 'Class 8'))
+marks = marks + other_marks
+print(marks)
