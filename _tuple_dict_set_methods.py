@@ -8,7 +8,7 @@ for name,salary in zip(names,salaries):
   print(f"Name:{name} and salary:{salary}")
 
 
-
+"""
 #Enumrates
 for index,name in enumerate(names,start=1):
   print(f"{index}.{name}")
@@ -127,3 +127,5 @@ for product in products:
     print("Not Available")
 
 print(products) 
+
+"""
