@@ -24,3 +24,24 @@ print("Length:", len(text))
 
 # Print the string in reverse
 print("Reversed:", text[::-1])  
+
+
+
+
+
+# Take a string input from the user
+print("\n .....vowel counter.......\n")
+
+
+text = input("Enter a string: ")
+
+# Variable to store the vowel count
+count = 0
+
+# Check each character in the string
+for ch in text.lower():
+    if ch == 'a' or ch == 'e' or ch == 'i' or ch == 'o' or ch == 'u':
+        count += 1
+
+# Display the result
+print("Number of vowels =", count)
