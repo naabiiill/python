@@ -45,3 +45,25 @@ for ch in text.lower():
 
 # Display the result
 print("Number of vowels =", count)
+
+
+
+
+#list comprehension
+print("\n .....list comprehension.......\n")
+#given list
+numbers = [10, 25, 30, 45, 50, 65, 70]
+
+#can be also done using this syntax
+#new_list = [num for num in numbers if num > 40]
+
+
+new_list = []
+
+for num in numbers:
+    if num > 40:
+        new_list.append(num)
+        
+# Print the new list
+print("Numbers greater than 40:", new_list)
+
