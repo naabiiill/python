@@ -27,7 +27,9 @@ print(type(list_tuple))
 
 list_tuple.append(6) #adding new element to list
 
-dummy_tuple = tuple(list_tuple) #converting list to tuple
+dummy_tuple = tuple(list_tuple) #()converting list to tuple
 print(type(dummy_tuple))
 
 print(dummy_tuple)
+
+
