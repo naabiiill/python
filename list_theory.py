@@ -151,3 +151,19 @@ for item1, item2 in zip(x,y):
 #
 for index,value in enumerate(y,start=1):
   print(f"Index:{index}-{value}")
+
+
+number_tuple = (5,3,7,2,11,9)
+
+sorted_tuple = sorted(number_tuple) # Unpack tuple ->Convert to a list, Sort
+
+des_sorted_tuple = sorted_tuple.reverse()
+
+print(sorted_tuple)
+
+
+# Unsorted
+data_set = {"A","B","C"}
+
+for item in sorted(data_set):
+  print(item)
