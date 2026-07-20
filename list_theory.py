@@ -116,3 +116,14 @@ for item in list_products:
   print(item)
   for color in item["color"]:
     print(color)
+
+
+#x = [1,2,3,4,5,6,7,8,9,10]
+#0,1,2,3,4,5,6,7,8,9
+#List Slicing
+#print(x[1:5])
+#print(x[:9])
+# Negetive Slicing
+#x = [1,2,3,4,5,6,7,8,9,10]
+# .....-4,-3,-2,-1
+#print(x[-5:-1])
