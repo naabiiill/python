@@ -127,3 +127,27 @@ for item in list_products:
 #x = [1,2,3,4,5,6,7,8,9,10]
 # .....-4,-3,-2,-1
 #print(x[-5:-1])
+
+
+# List Comprehension
+x = [1,2,3,4,5,6,7,8,9,10]
+
+odd = [x[i] for i in range(len(x)) if i%2==0]
+
+print(odd)
+
+even = [x[i] for i in range(len(x)) if i%2 !=0]
+print(even)
+
+
+# Zip
+
+x = [1,2,3,4,5] # 5
+y = ["A","B","C","D"] # 4
+'''
+for item1, item2 in zip(x,y):
+  print(f"Item1:{item1} Item2: {item2}")
+'''
+#
+for index,value in enumerate(y,start=1):
+  print(f"Index:{index}-{value}")
