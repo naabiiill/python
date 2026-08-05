@@ -822,7 +822,7 @@ class Program
 
 //45
 
-using System;
+/*using System;
 
 class Program
 {
@@ -839,6 +839,6 @@ class Program
 
         Console.WriteLine(factorial);
     }
-} 
+} */
 
 
