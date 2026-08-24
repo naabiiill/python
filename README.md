@@ -1,2 +1,4 @@
-#learning python
-This repository contains my practice notebooks while learning Python, NumPy, Pandas, Machine Learning, and AI.
+## Learning Python
+
+***This repository contains my practice notebooks while learning.***
+- [Python](#Python)
